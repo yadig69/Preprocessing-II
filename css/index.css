@@ -168,12 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.nav-container {
+header {
+  width: 100%;
+  padding: 2.5% 15%;
+  border-bottom: 2px dashed #C0C0C0;
   display: flex;
-  background-color: #17A2B8;
+  justify-content: space-between;
 }
-.nav-bar {
-  flex-direction: row;
+header h1 {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .nav-bar {
+  width: 70%;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-evenly;
 }
 .footer {
   width: 100%;
